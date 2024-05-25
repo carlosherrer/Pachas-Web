@@ -1,4 +1,5 @@
 import { Carousel, Typography, Button } from "@material-tailwind/react";
+import Mixto from "../assets/card/mixto.jpg";
 
 const carrousel = () => {
   return (
@@ -11,31 +12,27 @@ const carrousel = () => {
             className="h-[540px] w-full object-cover"
           />
           <div className="absolute inset-0 grid h-full w-full place-items-center bg-black/75">
-            <div className="w-3/4 text-center md:w-2/4">
+            <div className="mt-24">
               <Typography
                 variant="h1"
                 color="white"
-                className="mb-4 text-3xl md:text-4xl lg:text-5xl"
+                className="text-3xl md:text-4xl lg:text-5xl"
               >
-                The Beauty of Nature
+                1er comentario
               </Typography>
-              <Typography
-                variant="lead"
-                color="white"
-                className="mb-12 opacity-80"
-              >
-                It is not so much for its beauty that the forest makes a claim
-                upon men&apos;s hearts, as for that subtle something, that
-                quality of air that emanation from old trees, that so
-                wonderfully changes and renews a weary spirit.
-              </Typography>
-              <div className="flex justify-center gap-2">
-                <Button size="lg" color="white">
-                  Explore
-                </Button>
-                <Button size="lg" color="white" variant="text">
-                  Gallery
-                </Button>
+            </div>
+            <div className="flex justify-center gap-2 md:gap-10">
+              <div>
+                <img src={Mixto} className="rounded-full w-40 md:w-64 md:mt-0 mt-4" />
+              </div>
+              <div className="text-center w-3/5 md:w-3/12">
+                <Typography
+                  variant="lead"
+                  color="white"
+                  className="opacity-80 mb-20"
+                >
+                  &rdquo;Deliciosas parrillas con cortes jugosos y llenos de sabor. Ambiente acogedor y excelente servicio. ¡Muy recomendado!&rdquo;
+                </Typography>
               </div>
             </div>
           </div>
@@ -91,11 +88,7 @@ const carrousel = () => {
               >
                 The Beauty of Nature
               </Typography>
-              <Typography
-                variant="lead"
-                color="white"
-                className="opacity-80"
-              >
+              <Typography variant="lead" color="white" className="opacity-80">
                 It is not so much for its beauty that the forest makes a claim
                 upon men&apos;s hearts, as for that subtle something, that
                 quality of air that emanation from old trees, that so
