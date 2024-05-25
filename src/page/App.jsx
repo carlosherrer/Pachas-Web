@@ -51,14 +51,14 @@ const App = () => {
       <div className="flex items-center bg-[#3c3c3c] lg:gap-8 gap-4">
         {/*historia*/}
         <div className="grid md:grid-cols-2 gap-6 mt-16 pl-4 lg:pl-32 mb-20">
-          <div className="grid md:mt-24 gap-4 max-w-3xl">
+          <div className="grid md:mt-24 gap-6 lg:max-w-3xl">
             <img src={inicio} className="rounded-2xl hidden md:flex" />
             <img src={navidad} className="rounded-2xl" />
             <img src={sorprise} className="rounded-2xl hidden md:flex" />
           </div>
-          <div className="grid gap-4 lg:max-w-3xl">
-            <img src={mothersday} className="h-full rounded-2xl" />
-            <img src={persons} className=" h-full rounded-2xl" />
+          <div className="grid gap-6 lg:max-w-3xl">
+            <img src={mothersday} className="md:h-full rounded-2xl" />
+            <img src={persons} className="md:h-full rounded-2xl" />
             <img src={mariachis} className="rounded-2xl" />
           </div>
         </div>
