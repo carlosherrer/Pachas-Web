@@ -4,7 +4,7 @@ import Mixto from "../assets/card/mixto.jpg";
 const carrousel = () => {
   return (
     <div>
-      <Carousel className="rounded-xl h-[500px]">
+      <Carousel className="rounded-xl h-[350px] md:h-[500px]">
         <div className="relative h-full w-full">
           <img
             src="https://images.unsplash.com/photo-1493246507139-91e8fad9978e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2940&q=80"
@@ -12,7 +12,7 @@ const carrousel = () => {
             className="h-[500px] w-full object-cover"
           />
           <div className="absolute inset-0 grid h-full w-full place-items-center bg-black/75">
-            <div className="mt-16">
+            <div className="mt-4">
               <Typography
                 variant="h1"
                 color="white"
@@ -29,7 +29,7 @@ const carrousel = () => {
                 <Typography
                   variant="lead"
                   color="white"
-                  className="opacity-80 md:mb-32 mb-40 text-sm md:text-2xl md:mt-8"
+                  className="opacity-80 md:mb-32 mb-24 text-sm md:text-2xl md:mt-8 mt-2"
                 >
                   &ldquo;Deliciosas parrillas con cortes jugosos y llenos de sabor. Ambiente acogedor y excelente servicio. ¡Muy recomendado!&rdquo;
                 </Typography>
