@@ -1,5 +1,6 @@
 //components
 import Cards from "../components/cards";
+import Carrousel from "../components/carrousel";
 //assets
 import mixto from "../assets/card/mixto.jpg";
 import backgroundimage from "../assets/backgroundimage.jpg";
@@ -31,14 +32,14 @@ const App = () => {
         </div>
         <div>
           <p className="relative z-20 flex justify-center text-center text-white mt-[30%] md:mt-[15%] text-3xl lg:mt-[20% ]">
-            El Arte y Sabor de las Generaciones
+            Arte y Sabor de las Generaciones
           </p>
         </div>
         <div>
           <p className="relative z-20 flex justify-center text-center text-white mt-[30%] md:mt-[5%] md:px-72 text-3xl">
-            &ldquo;Disfruta de una deliciosa parrillada en nuestro restaurante
-            familiar, donde cada comida se prepara con cariño en un ambiente
-            acogedor.&rdquo;
+            &ldquo;Disfruta de una deliciosa parrillada en tu restaurante
+            familiar preferido, donde cada platillo se prepara con una excelente
+            calidad, un buen ambiente y el cariño que nos representa.&rdquo;
           </p>
         </div>
         <div>
@@ -136,7 +137,8 @@ const App = () => {
         </div>
       </div>
       <div className="bg-[#3c3c3c]">
-        <br/>
+        <br />
+        <Carrousel />
       </div>
     </div>
   );
