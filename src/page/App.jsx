@@ -1,6 +1,7 @@
 //components
 import Cards from "../components/cards";
 import Carrousel from "../components/carrousel";
+import Gallery from "../components/Gallery";
 //assets
 import mixto from "../assets/card/mixto.jpg";
 import backgroundimage from "../assets/backgroundimage.jpg";
@@ -139,6 +140,10 @@ const App = () => {
       <div className="bg-[#3c3c3c]">
         <br />
         <Carrousel />
+      </div>
+      <div className="bg-[#3c3c3c]">
+        <br />
+        <Gallery />
       </div>
     </div>
   );
