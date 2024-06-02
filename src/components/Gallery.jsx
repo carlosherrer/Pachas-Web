@@ -102,7 +102,7 @@ const Gallery = () => {
           </div>
         </div>
         {!isExpanded && (
-          <div className="flex absolute bottom-0 left-0 right-0 bg-black h-1/4 items-center justify-center bg-opacity-35 transition-opacity duration-500" style={{ opacity: isExpanded ? '0' : '1' }}>
+          <div className="flex absolute bottom-0 left-0 right-0 bg-black h-1/3 md:h-1/3 items-center justify-center bg-opacity-85 transition-opacity duration-500" style={{ opacity: isExpanded ? '0' : '1' }}>
           <button 
             onClick={handleToggle}
             className="bg-[#dfaa5f] text-white px-4 py-2 rounded-lg">
